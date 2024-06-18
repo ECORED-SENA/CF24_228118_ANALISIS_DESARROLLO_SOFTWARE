@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Construir aplicativo según las características de la arquitectura Android',
+    descripcionCurso:
+      'En este componente formativo se abordan los conceptos claves para el diseño y desarrollo de aplicaciones móviles nativas, junto con sus elementos, vistas, maquetación, entornos de desarrollo, lenguajes de programación.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,28 +37,81 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '1.	Estructura de un proyecto en Android Studio',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: '2.	Interfaz de usuario en Android',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: '<i>Layouts</i>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Controles básicos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Eventos <i>listeners</i>',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Navegación (<i>intents</i>)',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tareas asincrónicas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Persistencia de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Bases de datos local SQLite',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Bases de datos en tiempo real',
+            hash: 't_6_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Multimedia',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: '<i>MediaPlayer</i>',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: '<i>VideoView</i>',
+            hash: 't_7_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +161,76 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Estructura de un proyecto en Android Studio',
+      referencia:
+        'Android <i>Developers</i>. (2021, May 25). <i>Aspectos fundamentales de la aplicación</i>.',
+      tipo: 'Página',
+      link: 'https://developer.android.com/training/basics/activity-lifecycle',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Estructura de un proyecto en Android Studio',
+      referencia:
+        '<i>Developers</i>. (2021, June 14).  Notas de la versión del complemento de Android para Gradle. ',
+      tipo: 'Página',
+      link: 'https://developer.android.com/studio/releases/gradle-plugin',
+    },
+    {
+      tema: 'Interfaz de usuario en Android',
+      referencia:
+        '<i>Developers</i>. (2021) Cómo crear una IU responsiva con ConstraintLayout. ',
+      tipo: 'Página',
+      link: 'https://developer.android.com/training/constraint-layout',
+    },
+    {
+      tema: 'Interfaz de usuario en Android',
+      referencia:
+        'Castillo, J. D. L. (2015, May 21). <i>Capítulo 14 - Interacción con Botones, TextView, ImageView</i>. YouTube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=-z8zTGTo7vA&ab_channel=Jos%C3%A9DimasLuj%C3%A1nCastillo',
+    },
+    {
+      tema: 'Interfaz de usuario en Android',
+      referencia:
+        'Castillo, J. D. L. (2015, May 21). <i>Capítulo 15 - Android Studio Intent Abrir una Activity</i>. YouTube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=LEVXzsXhO0A&ab_channel=Jos%C3%A9DimasLuj%C3%A1nCastillo',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Diseño',
+      significado:
+        'un diseño define la estructura visual de una interfaz de usuario.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<i>Scrolling</i>',
+      significado: 'acción de desplazarse internamente.',
+    },
+    {
+      termino: '<i>SDK</i>',
+      significado: 'kit de desarrollo de <i>software</i>.',
+    },
+    {
+      termino: '<i>String</i>',
+      significado: 'recurso XML que ofrece una sola <i>string</i>.',
+    },
+    {
+      termino: '<i>View</i>',
+      significado: 'es la clase base de los <i>widgets</i>.',
+    },
+    {
+      termino: '<i>Wearable</i>',
+      significado:
+        'dispositivo conectado que se puede llevar puesto y que se conecta al teléfono móvil.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Android Developers. (2021). <i>Documentation</i> | <i>Desarrolladores de Android</i>.',
+      link: 'https://developer.android.com/docs',
     },
   ],
   creditos: [
@@ -150,8 +253,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Zulema León',
+          cargo: 'Experta Temática',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,23 +269,23 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andres Felipe Herrera Roldan',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Edgar Mauricio Cortes',
+          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
