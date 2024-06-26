@@ -139,7 +139,7 @@
                   p(data-aos="fade-right").code &#60;!-- Cierre del contenedor LinearLayout --> 
             .row.justify-content-center
               .col-lg-7.my-3
-                .bg10.p-4.brad
+                .bg101.p-4.brad
                   p(data-aos="fade-down") El código XML para la creación de un layout de tipo #[i #[b LinearLayout:]] con orientación vertical, el cual contiene dos vistas de tipo Button.  
                     ul.lista-ul--color.fa-ul.mb-0.ms-0
                       li 
