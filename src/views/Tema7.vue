@@ -14,7 +14,7 @@
             .col-lg-auto.my-3                  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')         
             .col.my-3
-              p(data-aos="fade-down").mb-0 En Android Studio, la integración de contenido multimedia en las aplicaciones es muy sencilla gracias a las opciones que presenta la API. Las principales clases que facilitan el acceso a los servicios multimedia son #[i MediaPlayer] y #[i VideoView], siendo estas las más utilizadas.
+              p(data-aos="fade-down").mb-0 En Android Studio, la integración de contenido multimedia en las aplicaciones es muy sencilla gracias a las opciones que presenta la API. Las principales clases que facilitan el acceso a los servicios multimedia son MediaPlayer y VideoView, siendo estas las más utilizadas.
       .col-lg-5.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/102.png', alt='')                              
 
@@ -26,7 +26,7 @@
           .col-lg-12
             Separador 
             #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-              h2 7.1 #[i MediaPlayer]           
+              h2 7.1 MediaPlayer           
             .row.justify-content-center          
               .col-lg-7.my-3
                 p(data-aos="fade-down") MediaPlayer permite reproducir sonido y video a través de su API. Es uno de los componentes principales del marco de trabajo de medios. Un objeto de esta clase puede recuperar, decodificar y reproducir audio y video con una configuración mínima. Es compatible con varias fuentes de medios diferentes, entre las que se incluyen las siguientes: URI, recursos locales y URL externas.             
@@ -180,11 +180,11 @@
                       
     Separador 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.2 #[i VideoView]    
+      h2 7.2 VideoView    
 
-    p(data-aos="fade-down") La clase #[i VideoView] permite presentar un archivo de video. Puede cargar videos de varias fuentes (como recursos o proveedores de contenido). La propiedad principal de VideoView es setVideoURI, donde se establece la ruta del video.
+    p(data-aos="fade-down") La clase VideoView permite presentar un archivo de video. Puede cargar videos de varias fuentes (como recursos o proveedores de contenido). La propiedad principal de VideoView es setVideoURI, donde se establece la ruta del video.
 
-    p(data-aos="fade-down") A continuación, se describe un ejemplo para utilizar #[i VideoView]: 
+    p(data-aos="fade-down") A continuación, se describe un ejemplo para utilizar VideoView: 
 
     ol.lista-ol--cuadro.fa-ul.mb-5
       li 

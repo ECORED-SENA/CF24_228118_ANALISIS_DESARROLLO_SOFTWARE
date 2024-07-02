@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 3
-      h1 Eventos #[i listeners]
+      h1 Eventos Listeners
 
     .row.bg17.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
@@ -20,14 +20,14 @@
                     .col-lg-auto.my-3                  
                       img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/61.png', alt='')         
                     .col.my-3
-                      p(data-aos="fade-down").mb-0 Los #[i Event Listeners] (objetos de escucha de eventos) son interfaces de la clase #[i View] que contienen un método de llamada, el cual será invocado cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto significa que los #[i View], como #[i Button], #[i ImageView], #[i RadioButton] y #[i Checkbox], al interactuar con el usuario, el objeto escuchará y llamará al método correspondiente, ejecutando una acción determinada.
+                      p(data-aos="fade-down").mb-0 Los Event Listeners (objetos de escucha de eventos) son interfaces de la clase View que contienen un método de llamada, el cual será invocado cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto significa que los View, como Button, ImageView, RadioButton y Checkbox, al interactuar con el usuario, el objeto escuchará y llamará al método correspondiente, ejecutando una acción determinada.
 
               .col-lg-5.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.png', alt='')  
 
             p(data-aos="fade-down") La ejecución de los eventos se realiza en el código Java ubicado en la carpeta /#[b java].
 
-            p(data-aos="fade-down").mb-5 Para fijar un #[i listener], se debe implementar y agregar los métodos del evento correspondiente a cada #[i View] mediante el método #[b setOn]. Para realizar el ejemplo del evento #[i listener] de un #[i Button], se deben seguir algunos pasos:
+            p(data-aos="fade-down").mb-5 Para fijar un Listeners, se debe implementar y agregar los métodos del evento correspondiente a cada View mediante el método #[b setOn]. Para realizar el ejemplo del evento Listeners de un Button, se deben seguir algunos pasos:
 
             .row.justify-content-start.mb-4.mt-5
               .col-auto(data-aos="flip-down")
@@ -120,7 +120,7 @@
                     .list__item__icon
                       img(src='@/assets/curso/temas/icon.svg', alt='')
                   .list__txt.bgicon.p-0.px-4.text-white
-                    h3.mb-0 Implementar el evento #[i listener]
+                    h3.mb-0 Implementar el evento Listeners
 
             .row.justify-content-center
               .col-lg-5.my-3

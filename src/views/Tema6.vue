@@ -152,7 +152,7 @@
                   .col-lg-6.my-3.col-md-auto
                     h4.code5.mb-4 Analytics 
                     .text-white
-                      p #[i Firebase Analytics] proporciona una visión profunda sobre el uso de la aplicación por parte de los usuarios, con datos que sirven para analizar el comportamiento de los usuarios con la aplicación.
+                      p Firebase Analytics proporciona una visión profunda sobre el uso de la aplicación por parte de los usuarios, con datos que sirven para analizar el comportamiento de los usuarios con la aplicación.
 
                 .row.justify-content-center.p-2
                   .col-lg-5.my-3.mb-4.mb-md-0
@@ -168,7 +168,7 @@
                   .col-lg-6.my-3.col-md-auto
                     h4.code5.mb-4.fst-italic Database 
                     .text-white
-                      p Proporciona una base de datos en tiempo real y #[i back-end]. El servicio proporciona a los desarrolladores de aplicaciones una API que permite que la información de las aplicaciones sea sincronizada y almacenada en la nube de #[i Firebase]. 
+                      p Proporciona una base de datos en tiempo real y #[i back-end]. El servicio proporciona a los desarrolladores de aplicaciones una API que permite que la información de las aplicaciones sea sincronizada y almacenada en la nube de Firebase. 
 
                 .row.justify-content-center.p-2
                   .col-lg-5.my-3.mb-4.mb-md-0
@@ -176,7 +176,7 @@
                   .col-lg-6.my-3.col-md-auto
                     h4.code5.mb-4.fst-italic Storage 
                     .text-white
-                      p Proporciona cargas y descargas seguras de archivos para aplicaciones #[i Firebase], sin importar la calidad de la red. El desarrollador lo puede utilizar para almacenar imágenes, audio, vídeo, u cualquier otro contenido generado por el usuario. 
+                      p Proporciona cargas y descargas seguras de archivos para aplicaciones Firebase, sin importar la calidad de la red. El desarrollador lo puede utilizar para almacenar imágenes, audio, vídeo, u cualquier otro contenido generado por el usuario. 
 
                 .row.justify-content-center.p-2
                   .col-lg-5.my-3.mb-4.mb-md-0
@@ -184,7 +184,7 @@
                   .col-lg-6.my-3.col-md-auto
                     h4.code5.mb-4.fst-italic Notifications 
                     .text-white
-                      p Con Firebase se puede usar la API FirebaseMessaging que permite el envío de mensajes desde #[i Firebase] hacia un dispositivo concreto o múltiples dispositivos, pudiendo gestionar las notificaciones desde la consola de Firebase.                                                         
+                      p Con Firebase se puede usar la API FirebaseMessaging que permite el envío de mensajes desde Firebase hacia un dispositivo concreto o múltiples dispositivos, pudiendo gestionar las notificaciones desde la consola de Firebase.                                                         
             .row.justify-content-center.align-items-center        
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
@@ -196,7 +196,7 @@
                 .bg1.brad.p-3.text-white.h-100
                   img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/90.svg', alt='') 
 
-                  p(data-aos="fade-down").mb-0 No requiere la instalación de un servidor ni de software adicional, ya que la base de datos está alojada en la nube.     
+                  p(data-aos="fade-down").mb-0 No requiere la instalación de un servidor ni de #[i software] adicional, ya que la base de datos está alojada en la nube.     
 
               .col-lg-2.my-3
                 .bg1.brad.p-3.text-white.h-100

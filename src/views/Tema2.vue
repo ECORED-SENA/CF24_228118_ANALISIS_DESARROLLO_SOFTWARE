@@ -61,7 +61,7 @@
               .col-lg-7.my-3
                 .bg7.p-4.brad.h-100.j
                   p(data-aos="fade-down") En Android Studio, los componentes visuales (como #[i Button, EditText, TextView], etc.) se organizan mediante contenedores llamados Layout. Los Layouts son elementos no visuales que permiten controlar la organización, posición y dimensiones de los View que se crean dentro de ellos. Al igual que muchos otros componentes contenedores, son capaces de contener otros controles, es decir, se puede tener un contenedor dentro de otro contenedor.
-                  p(data-aos="fade-down").mb-0 Existen diferentes tipos de #[i Layout], entre los más comunes están: #[i LinearLayout], #[i TableLayout] y #[i ConstraintLayout]. A continuación, se profundiza en cada uno: 
+                  p(data-aos="fade-down").mb-0 Existen diferentes tipos de #[i Layout], entre los más comunes están: LinearLayout, #[i TableLayout] y #[i ConstraintLayout]. A continuación, se profundiza en cada uno: 
               .col-lg-5.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/28.png', alt='')                                                 
 
@@ -76,11 +76,11 @@
                     .list__item__icon
                       img(src='@/assets/curso/temas/icon.svg', alt='')
                   .list__txt.bgicon.p-0.px-4.text-white
-                    h3.mb-0.fst-italic LinearLayout   
+                    h3.mb-0 LinearLayout   
 
             .row.justify-content-center
               .col-lg-7.my-3
-                p(data-aos="fade-down") Un #[i LinearLayout] dispone las vistas de la interfaz una debajo de otra (orientación vertical) o una al lado de la otra (orientación horizontal). Sus propiedades principales son:
+                p(data-aos="fade-down") Un LinearLayout dispone las vistas de la interfaz una debajo de otra (orientación vertical) o una al lado de la otra (orientación horizontal). Sus propiedades principales son:
                 ol.lista-ol--cuadro.fa-ul
                   li 
                     .lista-ol--cuadro__vineta
@@ -161,7 +161,7 @@
                     p(data-aos="fade-down") #[b #[i layout_height:]] propiedad que define el alto del view
                     p(data-aos="fade-down") #[b #[i text:]] propiedad que define el título del button />
 
-                    p(data-aos="fade-down") El código anterior mostraría el #[i LinearLayout] de la siguiente forma:
+                    p(data-aos="fade-down") El código anterior mostraría el LinearLayout de la siguiente forma:
 
               .col-lg-5.my-3 
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='') 
@@ -173,9 +173,9 @@
                     .list__item__icon
                       img(src='@/assets/curso/temas/icon.svg', alt='')
                   .list__txt.bgicon.p-0.px-4.text-white
-                    h3.mb-0.fst-italic TableLayout
+                    h3.mb-0 TableLayout
 
-            p(data-aos="fade-down") Es un contenedor #[i ViewGroup] que permite mostrar los elementos #[i view] en columnas y filas. Para crear las filas se utiliza el objeto #[i TableRow]. Cada fila puede tener una o más celdas, o ninguna, y cada celda se crea mediante un tipo de objeto view. Es decir, las celdas de una fila pueden formarse por una diversidad de objetos #[i view], como #[i ImageView] o #[i TextView].
+            p(data-aos="fade-down") Es un contenedor ViewGroup que permite mostrar los elementos View en columnas y filas. Para crear las filas se utiliza el objeto TableRow. Cada fila puede tener una o más celdas, o ninguna, y cada celda se crea mediante un tipo de objeto View. Es decir, las celdas de una fila pueden formarse por una diversidad de objetos View, como ImageView o TextView.
 
             p(data-aos="fade-down") El siguiente código XML de diseño muestra dos filas con tres celdas en cada una, y una tercera fila con dos celdas:  
             .row.justify-content-center.align-items-center          
@@ -232,7 +232,7 @@
                     .list__item__icon
                       img(src='@/assets/curso/temas/icon.svg', alt='')
                   .list__txt.bgicon.p-0.px-4.text-white
-                    h3.mb-0.fst-italic ConstraintLayout    
+                    h3.mb-0 ConstraintLayout    
 
             .bg11.p-4.mt-5
               .row.justify-content-center.align-items-center
@@ -321,7 +321,7 @@
                   .list__txt.bgicon.p-0.px-4.text-white
                     h3.mb-0 Botones
 
-            p(data-aos="fade-down").mb-4 Un botón (#[i Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. A continuación, se presenta un ejemplo de un Button con sus propiedades básicas: 
+            p(data-aos="fade-down").mb-4 Un botón (#[i Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. A continuación, se presenta un ejemplo de un #[i Button] con sus propiedades básicas: 
             .row.justify-content-center.mb-5
               .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos="fade-down")
@@ -403,7 +403,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 2.
-          span Propiedades básicas #[i TextView]
+          span Propiedades básicas TextView
 
         .tabla-a.color-acento-contenido(data-aos="fade-down")
           table
@@ -421,7 +421,7 @@
               tr
                 td.text-bold android:id 
                 td 
-                  p Establece cual es el contenido para mostrar por el TextView.
+                  p Establece cuál es el contenido para mostrar por el TextView.
                   p Existen dos formas de asociar el texto a una vista, la primera forma y más simple es asociar el texto de forma directa:
 
                   p android:text=“Hola Mundo”
@@ -453,7 +453,7 @@
       .col-lg-auto.my-3                  
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
       .col.my-3
-        p(data-aos="fade-down") Ejemplo de #[i TextView] con sus propiedades básicas:                                                 
+        p(data-aos="fade-down") Ejemplo de TextView con sus propiedades básicas:                                                 
     .row.justify-content-center.align-items-center          
       .col-lg-5.my-3
         .bg8.p-3
@@ -473,14 +473,14 @@
       .col-lg-auto.my-3                  
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
       .col.my-3
-        p(data-aos="fade-down") El #[i TextView] quedaría como se presenta a continuación: 
+        p(data-aos="fade-down") El TextView quedaría como se presenta a continuación: 
 
 
     .row.justify-content-center
       .col-auto
         .titulo-sexto.color-acento-contenido
           h5 Figura 12.
-          span Vista diseño #[i TextView]
+          span Vista diseño TextView
     .row.bg3.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
         .row.justify-content-center.align-items-center          
@@ -489,9 +489,9 @@
 
             .row.justify-content-center.align-items-center.mb-5      
               .col-lg-7.my-3    
-                p(data-aos="fade-down") #[i #[b ImageView:]] es un control de imágenes que permite acceder a los recursos de imágenes (drawable o mipmap) y publicar en la aplicación. Su propiedad principal es #[b android:src], que permite indicar la imagen a exponer del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere presentar en la carpeta #[b drawable] del proyecto (#[b /res/drawable]) y, después, en el XML se debe indicar la ruta de origen así: #[b android:src="@drawable/imagen"]. 
+                p(data-aos="fade-down") #[b ImageView:] es un control de imágenes que permite acceder a los recursos de imágenes (drawable o mipmap) y publicar en la aplicación. Su propiedad principal es #[b android:src], que permite indicar la imagen a exponer del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere presentar en la carpeta #[b drawable] del proyecto (#[b /res/drawable]) y, después, en el XML se debe indicar la ruta de origen así: #[b android:src="@drawable/imagen"]. 
                 .bg14.p-3.brad(data-aos="flip-down") 
-                  p(data-aos="fade-down").mb-0 Aparte de las propiedades de width y height que se encuentran en todos los view, están las siguientes propiedades básicas para el ImageView:      
+                  p(data-aos="fade-down").mb-0 Aparte de las propiedades de #[i width] y #[i height] que se encuentran en todos los view, están las siguientes propiedades básicas para el ImageView:      
               .col-lg-5.my-3    
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/46.png', alt='')                    
                 
@@ -499,7 +499,7 @@
               .col-lg-8
                 .titulo-sexto.color-acento-contenido(data-aos="fade-down")
                   h5 Tabla 3.
-                  span Propiedades básicas #[i ImageView]
+                  span Propiedades básicas ImageView
 
                 .tabla-a.color-acento-contenido(data-aos="fade-down")
                   table
@@ -510,10 +510,10 @@
                     tbody.bgb  
                       tr
                         td.text-bold android:src
-                        td Establece la imagen del #[i ImageView] 
+                        td Establece la imagen del ImageView 
                       tr
                         td.text-bold android:scaleType
-                        td Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este #[i ImageView] 
+                        td Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este ImageView 
                       tr
                         td.text-bold android:tint
                         td El color de tinte de la imagen. 
@@ -522,7 +522,7 @@
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
               .col.my-3
-                p(data-aos="fade-down") Ejemplo de #[i ImageView] con sus propiedades básicas:                                                
+                p(data-aos="fade-down") Ejemplo de ImageView con sus propiedades básicas:                                                
             .row.justify-content-center.align-items-center          
               .col-lg-5.my-3
                 .bg8.p-3
@@ -539,18 +539,18 @@
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
               .col.my-3
-                p(data-aos="fade-down") El #[i ImageView] quedaría como se presenta a continuación: 
+                p(data-aos="fade-down") El ImageView quedaría como se presenta a continuación: 
 
             .row.justify-content-center.mb-5
               .col-auto
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 13.
-                  span Vista diseño #[i ImageView]  
+                  span Vista diseño ImageView  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/48.png', alt='Una aplicación de Android que presenta el logo de Android en la pantalla con el encabezado "Layouts".')   
 
             .row.justify-content-center.align-items-center.mb-5      
               .col-lg-7.my-3    
-                p(data-aos="fade-down") #[b #[i EditText:]] es un elemento de la interfaz que permite al usuario ingresar y editar texto. Una de sus propiedades más funcionales es #[b #[i inputType]], que define el tipo de entrada que tendrá el cuadro de texto. El valor se aplica dependiendo de lo que se quiera ingresar: por ejemplo, un correo electrónico (#[b #[i textEmailAddress]]), edad (#[b #[i number]]), apellido (#[b #[i text]]), entre otros. La elección del tipo de entrada configura el tipo de teclado que se expondrá. 
+                p(data-aos="fade-down") #[b EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar texto. Una de sus propiedades más funcionales es #[b inputType], que define el tipo de entrada que tendrá el cuadro de texto. El valor se aplica dependiendo de lo que se quiera ingresar: por ejemplo, un correo electrónico (#[b #[i textEmailAddress]]), edad (#[b #[i number]]), apellido (#[b #[i text]]), entre otros. La elección del tipo de entrada configura el tipo de teclado que se expondrá. 
   
               .col-lg-5.my-3    
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/49.png', alt='')   
@@ -558,8 +558,8 @@
             .row.justify-content-center.mb-5
               .col-lg-10
                 .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-                  h5 Tabla 3.
-                  span Propiedades básicas de #[i EditText]
+                  h5 Tabla 4.
+                  span Propiedades básicas de EditText
 
                 .tabla-a.color-acento-contenido(data-aos="fade-down")
                   table
@@ -582,7 +582,7 @@
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
               .col.my-3
-                p(data-aos="fade-down") Ejemplo de #[i EditText] con sus propiedades básicas:                                               
+                p(data-aos="fade-down") Ejemplo de EditText con sus propiedades básicas:                                               
             .row.justify-content-center.align-items-center          
               .col-lg-5.my-3
                 .bg8.p-3
@@ -599,13 +599,13 @@
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
               .col.my-3
-                p(data-aos="fade-down") El #[i EditText] quedaría como se presenta a continuación: 
+                p(data-aos="fade-down") El EditText quedaría como se presenta a continuación: 
 
             .row.justify-content-center
               .col-auto
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 14.
-                  span Vista diseño #[i EditText]  
+                  span Vista diseño EditText  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/50.png', alt='Un campo de texto con el título "EditText" y el texto "Escriba su Nombre".')   
 
     .row.justify-content-start.mb-4.mt-5
@@ -689,13 +689,13 @@
       .col-lg-auto.my-3                  
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/9.png', alt='')         
       .col.my-3
-        p(data-aos="fade-down") #[i #[b RadioButton:]] a diferencia del #[i CheckBox], el control #[i RadioButton] permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones #[i RadioButton] se define mediante un elemento #[i RadioGroup], el cual contiene todos los elementos #[i RadioButton] necesarios.
+        p(data-aos="fade-down") #[i #[b RadioButton:]] a diferencia del #[i CheckBox], el control RadioButton permite realizar una selección única entre una lista de opciones. En Android, un grupo de botones RadioButton se define mediante un elemento RadioGroup, el cual contiene todos los elementos RadioButton necesarios.
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 5.
-          span Propiedades básicas de #[i RadioButton]
+          span Propiedades básicas de RadioButton
 
         .tabla-a.color-acento-contenido(data-aos="fade-down")
           table
@@ -706,10 +706,10 @@
             tbody.bgb  
               tr
                 td.text-bold android:checked
-                td Establece el estado actual de selección por defecto del #[i RadioButton]. 
+                td Establece el estado actual de selección por defecto del RadioButton. 
               tr
                 td.text-bold android:text
-                td Define el texto que se mostrará en el #[i RadioButton].
+                td Define el texto que se mostrará en el RadioButton.
               tr
                 td.text-bold android:id 
                 td Define el identificador único asociado a la vista para ser referenciado por código Java, al igual que en los otros controles.
@@ -720,11 +720,11 @@
           .col-lg-auto.my-3                  
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.png', alt='')         
           .col.my-3
-            p(data-aos="fade-down") Para definir un control de este tipo, se utiliza como componente padre un #[i RadioGroup] y como hijos dos #[i RadioButton]. El #[i RadioGroup] es el que permite que solo sea seleccionable una sola opción; si se crean #[i RadioButton] sin un RadioGroup, todas las opciones serán seleccionables, lo que no es el propósito de este componente.
+            p(data-aos="fade-down") Para definir un control de este tipo, se utiliza como componente padre un RadioGroup y como hijos dos RadioButton. El RadioGroup es el que permite que solo sea seleccionable una sola opción; si se crean RadioButton sin un RadioGroup, todas las opciones serán seleccionables, lo que no es el propósito de este componente.
         .bg7.p-3.brad.mb-3(data-aos="flip-down") 
-          p(data-aos="fade-down").mb-0 En las propiedades del #[i RadioGroup] se puede definir la orientación de los #[i RadioButton], que puede ser vertical u horizontal. 
+          p(data-aos="fade-down").mb-0 En las propiedades del RadioGroup se puede definir la orientación de los RadioButton, que puede ser vertical u horizontal. 
         .bg1.text-white.p-3.brad(data-aos="flip-down") 
-          p(data-aos="fade-down").mb-0 El siguiente código presenta la creación de dos RadioButton con los textos de "femenino" y "masculino", los cuales están dentro de un #[i RadioGroup] con la propiedad de orientación vertical.              
+          p(data-aos="fade-down").mb-0 El siguiente código presenta la creación de dos RadioButton con los textos de "femenino" y "masculino", los cuales están dentro de un RadioGroup con la propiedad de orientación vertical.              
       .col-lg-5.my-3    
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.png', alt='')  
 
@@ -762,13 +762,13 @@
               .col-lg-auto.my-3                  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/8.png', alt='')         
               .col.my-3
-                p(data-aos="fade-down") Los #[i RadioButton] quedarían como se presenta a continuación:  
+                p(data-aos="fade-down") Los RadioButton quedarían como se presenta a continuación:  
 
             .row.justify-content-center
               .col-auto
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 16.
-                  span Vista diseño #[i RadioButton]  
+                  span Vista diseño RadioButton  
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/52.png', alt='Dos opciones de radio con el título "RadioButton", donde una está seleccionada con el texto Femenino y la otra no está seleccionada con el texto Masculino.')  
 
     .row.justify-content-start.mb-4.mt-5
@@ -852,11 +852,11 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4.text-white
-            h3.mb-0.fst-italic ListView
+            h3.mb-0 ListView
 
     .row.justify-content-center.align-items-center.mb-5      
       .col-lg-7.my-3    
-        p(data-aos="fade-down") El #[i ListView] permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[i Spinner]. Si existen más opciones de las que se pueden mostrar en el control, se podrá hacer scroll sobre la lista para acceder al resto de los elementos.
+        p(data-aos="fade-down") El ListView permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[i Spinner]. Si existen más opciones de las que se pueden mostrar en el control, se podrá hacer scroll sobre la lista para acceder al resto de los elementos.
         .bg1.brad.p-2
           .row.justify-content-center.align-items-center        
             .col-lg-auto.my-3                  
@@ -886,13 +886,13 @@
           p.ps-3(data-aos="fade-right") #[b.code1 android:layout_height]#[b.code =]#[b.code2 "wrap_content"]
           p.ps-3(data-aos="fade-right") #[b.code1 android:entries]#[b.code =]#[b.code2 "@array/ciudades"] #[b.code />]        
 
-    p(data-aos="fade-down") El código describe la creación de un #[i ListView], utilizando las mismas propiedades que el #[i Spinner], y la propiedad entries, donde se relaciona el array "ciudades" creado en los recursos.
+    p(data-aos="fade-down") El código describe la creación de un ListView, utilizando las mismas propiedades que el #[i Spinner], y la propiedad entries, donde se relaciona el array "ciudades" creado en los recursos.
 
     .row.justify-content-center
       .col-auto
         .titulo-sexto.color-acento-contenido
           h5 Figura 18.
-          span Lista diseño #[i Listview] ciudades
+          span Lista diseño ListView ciudades
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.png', alt='Una lista de opciones con el título "ListView" que presenta  las opciones: Popayán, Cali, Bogotá, Cartagena, Medellín y Pasto.')  
 </template>
 

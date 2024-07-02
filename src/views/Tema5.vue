@@ -13,7 +13,7 @@
           .col-lg-12
             .row.justify-content-center          
               .col-lg-7.my-3
-                p(data-aos="fade-down") Todos los componentes de una aplicación Android, como las actividades, los servicios o los broadcast receivers, se ejecutan en el mismo hilo de ejecución, llamado hilo principal, #[i main thread] o #[i GUI thread]. Como sugiere este último nombre, también es el hilo donde se realizan todas las operaciones que gestionan la interfaz de usuario de la aplicación. Por ello, cualquier operación larga o costosa que se realice en este hilo bloqueará la ejecución del resto de componentes de la aplicación y, por supuesto, también la interfaz, produciendo un efecto evidente de lentitud, bloqueo o mal funcionamiento en general para el usuario.
+                p(data-aos="fade-down") Todos los componentes de una aplicación Android, como las actividades, los servicios o los #[i broadcast receivers], se ejecutan en el mismo hilo de ejecución, llamado hilo principal, #[i main thread] o #[i GUI thread]. Como sugiere este último nombre, también es el hilo donde se realizan todas las operaciones que gestionan la interfaz de usuario de la aplicación. Por ello, cualquier operación larga o costosa que se realice en este hilo bloqueará la ejecución del resto de componentes de la aplicación y, por supuesto, también la interfaz, produciendo un efecto evidente de lentitud, bloqueo o mal funcionamiento en general para el usuario.
                 .bg1.brad.px-3.mb-5
                   .row.justify-content-center.align-items-center        
                     .col-lg-auto.my-3                  

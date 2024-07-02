@@ -13,7 +13,7 @@
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
         .row.justify-content-center.align-items-center          
           .col-lg-12
-            p(data-aos="fade-down") Actualmente, los sistemas operativos para dispositivos móviles permiten la construcción de aplicaciones mediante el uso de un software llamado SDK. Tanto Android como iOS ofrecen sus respectivas herramientas para crear aplicaciones nativas. Las características de los dispositivos móviles, como GPS, cámara y navegación por internet, se aprovechan en el desarrollo de aplicaciones, permitiendo ideas interesantes y útiles para los usuarios. 
+            p(data-aos="fade-down") Actualmente, los sistemas operativos para dispositivos móviles permiten la construcción de aplicaciones mediante el uso de un #[i software] llamado SDK. Tanto Android como iOS ofrecen sus respectivas herramientas para crear aplicaciones nativas. Las características de los dispositivos móviles, como GPS, cámara y navegación por internet, se aprovechan en el desarrollo de aplicaciones, permitiendo ideas interesantes y útiles para los usuarios. 
 
             .row.justify-content-center          
               .col-lg-8.my-3

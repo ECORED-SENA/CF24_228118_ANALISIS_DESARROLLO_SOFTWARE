@@ -16,7 +16,7 @@
             .col-lg-auto.my-3                  
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/5.png', alt='')         
             .col.my-3
-              p(data-aos="fade-down").mb-0 En Android Studio, un proyecto contiene todos los elementos necesarios para el desarrollo de una aplicación: desde código fuente y recursos hasta código de prueba y configuraciones de compilación. Al iniciar un nuevo proyecto, Android Studio crea la estructura necesaria para todos los archivos y los organiza en la ventana Project, ubicada en el lado izquierdo del IDE (accede a ella mediante View > Tool Windows > Project), o utilizando el acceso directo Alt + 1.
+              p(data-aos="fade-down").mb-0 En Android Studio, un proyecto contiene todos los elementos necesarios para el desarrollo de una aplicación: desde código fuente y recursos hasta código de prueba y configuraciones de compilación. Al iniciar un nuevo proyecto, Android Studio crea la estructura necesaria para todos los archivos y los organiza en la ventana Project, ubicada al lado izquierdo del IDE (accede a ella mediante View > Tool Windows > Project), o utilizando el acceso directo Alt + 1.
 
       .col-lg-3.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='')    
@@ -83,7 +83,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4.text-white
-            h3.mb-0 Manifest     
+            h3.mb-0.fst-italic Manifest     
 
 
     .row.justify-content-center.align-items-center       
@@ -92,9 +92,9 @@
           .col-lg-auto.my-3                  
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/12.png', alt='')         
           .col.my-3
-            p(data-aos="fade-down") En el manifest se encuentra la información esencial de una aplicación para las herramientas de desarrollo de Android, el sistema operativo Android y Google Play. El manifest es un archivo en lenguaje XML donde se definen aspectos principales de la aplicación, como su identificación (nombre, ícono, estilos), sus componentes (pantallas, servicios) y los permisos necesarios para su ejecución. 
+            p(data-aos="fade-down") En el #[i manifest] se encuentra la información esencial de una aplicación para las herramientas de desarrollo de Android, el sistema operativo Android y Google Play. El #[i manifest] es un archivo en lenguaje XML donde se definen aspectos principales de la aplicación, como su identificación (nombre, ícono, estilos), sus componentes (pantallas, servicios) y los permisos necesarios para su ejecución. 
         .bg5.p-3.brad   
-          p(data-aos="fade-down").mb-0 A continuación, se presentan algunos de los elementos más importantes que se deben declarar en el archivo manifest:
+          p(data-aos="fade-down").mb-0 A continuación, se presentan algunos de los elementos más importantes que se deben declarar en el archivo #[i manifest]:
       .col-lg-5
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/13.png', alt='')         
 
@@ -106,7 +106,7 @@
               .col-auto
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 3.
-                  span Archivo manifest   
+                  span Archivo #[i manifest]   
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/14.png', alt='Contenido del archivo AndroidManifest.xml en Android Studio.')
 
     .row.justify-content-start.mb-4
@@ -116,13 +116,13 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4.text-white
-            h3.mb-0.fst-italic Java                 
+            h3.mb-0 Java                 
 
     .row.justify-content-center.align-items-center      
       .col-lg-auto.my-3                  
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/9.png', alt='')         
       .col.my-3
-        p(data-aos="fade-down") La carpeta java contiene todo el código fuente de la aplicación, organizado en paquetes, clases, interfaces, POJOs (Plain Old Java Objects), entre otros. Inicialmente, Android Studio crea el código básico de la pantalla principal de la aplicación (actividad o activity), que por defecto se llamará MainActivity, siempre bajo la estructura del paquete java definido durante la creación del proyecto. 
+        p(data-aos="fade-down") La carpeta java contiene todo el código fuente de la aplicación, organizado en paquetes, clases, interfaces, POJOs (#[i Plain Old Java Objects]), entre otros. Inicialmente, Android Studio crea el código básico de la pantalla principal de la aplicación (actividad o #[i activity]), que por defecto se llamará MainActivity, siempre bajo la estructura del paquete java definido durante la creación del proyecto. 
 
     .row.bg3.align-items-center.mb-5
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
@@ -193,7 +193,7 @@
                 .row.justify-content-center.p-2
                   .col-lg-6.my-3.col-md-auto
                     h4.t2 Subcarpeta values
-                    p #[i #[b /res/values:]] Esta carpeta contiene archivos XML que contienen valores simples, como strings, temas y colores.  
+                    p #[i #[b /res/values:]] Esta carpeta contiene archivos XML que contienen valores simples, como #[i strings], temas y colores.  
                   .col-lg-5.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/19.png', alt="Explorador de archivos de Android Studio mostrando la carpeta 'values' que contiene archivos XML para definir colores, cadenas de texto y temas de la aplicación.")
 

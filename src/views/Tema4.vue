@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 4
-      h1 Navegación (#[i intents])
+      h1 Navegación (Intents)
 
     p(data-aos="fade-down") La navegación entre pantallas en Android se realiza a través de los Intents. El Intent es básicamente una intención de realizar una acción; es la forma de comunicación en Android que permite la interacción entre componentes de la misma aplicación o entre diferentes aplicaciones (Activities, Services, Broadcasts, etc.).
 
@@ -18,7 +18,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4.text-white
-            h3.mb-0 #[i Intent] explícito   
+            h3.mb-0 Intent explícito   
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-7.my-3
@@ -50,7 +50,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bgicon.p-0.px-4.text-white
-            h3.mb-0 #[i Intent] implícito   
+            h3.mb-0 Intent implícito   
 
     .row.justify-content-center.align-items-center.mb-4           
       .col-lg-7.my-3
