@@ -37,14 +37,14 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: '1.	Estructura de un proyecto en Android Studio',
+        titulo: 'Estructura de un proyecto en Android Studio',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: '2.	Interfaz de usuario en Android',
+        titulo: 'Interfaz de usuario en Android',
         desarrolloContenidos: true,
         subMenu: [
           {
