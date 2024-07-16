@@ -769,7 +769,7 @@
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 16.
                   span Vista diseño RadioButton  
-                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/52.png', alt='Dos opciones de radio con el título "RadioButton", donde una está seleccionada con el texto Femenino y la otra no está seleccionada con el texto Masculino.')  
+                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/52_1.png', alt='Dos opciones de radio con el título "RadioButton", donde una está seleccionada con el texto Femenino y la otra no está seleccionada con el texto Masculino.')  
 
     .row.justify-content-start.mb-4.mt-5
       .col-auto(data-aos="flip-down")
@@ -893,7 +893,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Figura 18.
           span Lista diseño ListView ciudades
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.png', alt='Una lista de opciones con el título "ListView" que presenta  las opciones: Popayán, Cali, Bogotá, Cartagena, Medellín y Pasto.')  
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57_1.png', alt='Una lista de opciones con el título "ListView" que presenta  las opciones: Popayán, Cali, Bogotá, Cartagena, Medellín y Pasto.')  
 </template>
 
 <script>
