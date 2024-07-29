@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-5.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Una aplicación de Android que presenta un video con controles de reproducción en la parte inferior.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El diagrama detalla la construcción de aplicaciones Android. Incluye la estructura del proyecto en Android Studio (archivos Manifest, Java, Res, y Gradle), la interfaz de usuario (layouts y controles básicos como botones y listas), y la gestión de eventos (Listeners). Los Intents facilitan la navegación entre componentes, y las tareas asíncronas se gestionan con AsyncTask. La persistencia de datos se realiza con bases de datos locales SQLite o en tiempo real. Además, se incluye el manejo de multimedia con MediaPlayer y VideoView.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

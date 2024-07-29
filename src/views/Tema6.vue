@@ -292,7 +292,7 @@
                     .col-lg-6.my-3
                       .t4
                         h5 Agregar SDK de Firebase.
-                        h5 Copiar las librerías al gradle del proyecto en Android Studio y ya que esté lista la configuración de Android Studio con Firebase.
+                        h5 Copiar las librerías al gradle del proyecto en Android Studio y ya está lista la configuración de Android Studio con Firebase.
 </template>
 
 <script>

@@ -66,7 +66,7 @@
                               .bg27.p-2
                                   h5.t4.mb-0 2
                           .p-3.text-white
-                            p(data-aos="fade-down") Copiar un sonido en la carpeta raw de extensión mp3.
+                            p(data-aos="fade-down") Copiar un sonido en la carpeta raw de extensión MP3.
                   .col-lg-6.my-3.mb-4.mb-md-0
                     .bg1.brad.p-3
                       .row.justify-content-center     
@@ -245,7 +245,7 @@
                   p.ps-3.code(data-aos="fade-right") }
                   p.code(data-aos="fade-right") }
 
-            img.img-a.img-t.mt-5(data-aos="zoom-in")(src='@/assets/curso/temas/106.png', alt='')
+            img.img-a.img-t.mt-5(data-aos="zoom-in")(src='@/assets/curso/temas/106.png', alt='Una aplicación de Android que presenta un video con controles de reproducción en la parte inferior.')
 </template>
 
 <script>

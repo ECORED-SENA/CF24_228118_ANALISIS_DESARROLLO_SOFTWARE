@@ -80,7 +80,7 @@
 
             .row.justify-content-center
               .col-lg-7.my-3
-                p(data-aos="fade-down") Un LinearLayout dispone las vistas de la interfaz una debajo de otra (orientación vertical) o una al lado de la otra (orientación horizontal). Sus propiedades principales son:
+                p(data-aos="fade-down") Un LinearLayout dispone las vistas de la interfaz, una debajo de otra (orientación vertical) o una al lado de la otra (orientación horizontal). Sus propiedades principales son:
                 ol.lista-ol--cuadro.fa-ul
                   li 
                     .lista-ol--cuadro__vineta
@@ -144,7 +144,7 @@
                     ul.lista-ul--color.fa-ul.mb-0.ms-0
                       li 
                         i.fas.fa-cube.color1
-                        span #[b <#[i LinearLayout:]] tipo de contenedor lineal 
+                        span #[b <#[i LinearLayout:]] tipo de contenedor lineal. 
                       li 
                         i.fas.fa-cube.color1
                         span #[i #[b orientation=vertical:]] propiedad que define la ubicación de los views de forma vertical.
@@ -158,13 +158,13 @@
                     p(data-aos="fade-down")  <#[i Button]:  etiqueta para crear un #[i view] de tipo #[i Button] (Botón).
 
                     p(data-aos="fade-down") #[b #[i layout_width:]] propiedad que define el ancho del view.
-                    p(data-aos="fade-down") #[b #[i layout_height:]] propiedad que define el alto del view
+                    p(data-aos="fade-down") #[b #[i layout_height:]] propiedad que define el alto del view.
                     p(data-aos="fade-down") #[b #[i text:]] propiedad que define el título del button />
 
                     p(data-aos="fade-down") El código anterior mostraría el LinearLayout de la siguiente forma:
 
               .col-lg-5.my-3 
-                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='') 
+                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='Imagen de como se visualiza el código en el TableLayout.') 
 
             .row.justify-content-start.mb-4.mt-5
               .col-auto(data-aos="flip-down")
@@ -244,7 +244,7 @@
                   p(data-aos="fade-down") Vista de Diseño ConstraintLayout: 
             
                 .col-lg-6.my-3
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')                       
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='Vista de Diseño ConstraintLayout.')                       
 
             Separador 
             #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -510,10 +510,10 @@
                     tbody.bgb  
                       tr
                         td.text-bold android:src
-                        td Establece la imagen del ImageView 
+                        td Establece la imagen del ImageView. 
                       tr
                         td.text-bold android:scaleType
-                        td Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este ImageView 
+                        td Controla cómo se debe cambiar el tamaño o mover la imagen para que coincida con el tamaño de este ImageView. 
                       tr
                         td.text-bold android:tint
                         td El color de tinte de la imagen. 
@@ -576,7 +576,7 @@
                         td Permite desplegar un texto sobre el control a manera de ayuda mientras el usuario aún no ingresa información. Se prefiere sobre la propiedad #[b #[i text.]] 
                       tr
                         td.text-bold android:text
-                        td Al igual que en TextView, se puede definir cuál es el texto que se mostrará en el control  
+                        td Al igual que en TextView, se puede definir cuál es el texto que se mostrará en el control.  
 
             .row.justify-content-center.align-items-center      
               .col-lg-auto.my-3                  
@@ -619,7 +619,7 @@
 
     .row.justify-content-center.align-items-center.mb-5      
       .col-lg-7.my-3    
-        p(data-aos="fade-down") Otro de los controles muy utilizados en las aplicaciones son los que permiten hacer una selección o un chequeo de alguna opción. Android cuenta con dos tipos: #[i checkboxes] y #[i radiobuttons].
+        p(data-aos="fade-down") Otro de los controles mas utilizados en las aplicaciones son los que permiten hacer una selección o un chequeo de alguna opción. Android cuenta con dos tipos: #[i checkboxes] y #[i radiobuttons].
         p(data-aos="fade-down") #[i #[b CheckBox:]] Las casillas de verificación permiten que el usuario seleccione una o más opciones de un grupo. Aparte de las propiedades de #[i width] y #[i height] que se encuentran en todas las vistas (#[i view]), las siguientes son básicas para el #[i Checkbox]:     
       .col-lg-5.my-3    
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/51.png', alt='') 
@@ -694,7 +694,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
-          h5 Tabla 5.
+          h5 Tabla 6.
           span Propiedades básicas de RadioButton
 
         .tabla-a.color-acento-contenido(data-aos="fade-down")
@@ -856,7 +856,7 @@
 
     .row.justify-content-center.align-items-center.mb-5      
       .col-lg-7.my-3    
-        p(data-aos="fade-down") El ListView permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes como en el caso del control #[i Spinner]. Si existen más opciones de las que se pueden mostrar en el control, se podrá hacer scroll sobre la lista para acceder al resto de los elementos.
+        p(data-aos="fade-down") El ListView permite mostrar al usuario una lista de opciones seleccionables directamente sobre el propio control, sin listas emergentes, como en el caso del control #[i Spinner]. Si existen más opciones de las que se pueden mostrar en el control, se podrá hacer scroll sobre la lista para acceder al resto de los elementos.
         .bg1.brad.p-2
           .row.justify-content-center.align-items-center        
             .col-lg-auto.my-3                  
