@@ -108,7 +108,7 @@
                     span Valores personalizados que se miden con dp (píxeles de densidad independiente).
 
                 p(data-aos="fade-down").py-3 Estas propiedades de #[i height] y #[i width] se aplican a todos los contenedores y vistas.              
-                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/31.png', alt='')                            
+                img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/31.png', alt='Diagrama comparativo de diseño lineal vertical y diseño lineal horizontal en Android, mostrando la disposición de vistas dentro de un contenedor LinearLayout.')                            
 
               .col-lg-5.my-3
                 .bg8.p-3
